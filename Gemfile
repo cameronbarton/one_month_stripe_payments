@@ -11,6 +11,9 @@ gem 'sqlite3', group: [:development, :test]
 
 gem 'rails_12factor', group: :production
 
+# Use bootstrap for design
+gem 'bootstrap-sass'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
