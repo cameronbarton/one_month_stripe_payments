@@ -7,7 +7,10 @@ ruby '2.1.1'
 gem 'rails', '4.0.8'
 
 #Use stripe
-gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby' 
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+# Figaro gem for security managing credentials
+gem 'figaro'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
