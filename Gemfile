@@ -15,6 +15,12 @@ gem 'figaro'
 # Add letter opener for handling emails in development
 gem 'letter_opener', group: :development
 
+# Add activeadmin for admin interface
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+# Add devise to support login
+gem 'devise'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'
