@@ -12,6 +12,9 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Figaro gem for security managing credentials
 gem 'figaro'
 
+# Add letter opener for handling emails in development
+gem 'letter_opener', group: :development
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'
